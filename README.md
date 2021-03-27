@@ -1,1 +1,2 @@
 # imersaodev-quizHarryPotter
+Código feito a partir do conteúdo da 2ª aula do Imersao Dev da Alura mas com toque mais pessoal do conteúdo que eu gosto: Harry Potter. O código consiste num Quiz de Harr Potter com algumas perguntas do universo da saga e com algumas brincadeirinhas pelas perguntas. Vamos ver quem faz a maior pontuação? Por enquanto está bem simples, mas a ideia é a medida que assista as aulas eu vá melhorando ele.
