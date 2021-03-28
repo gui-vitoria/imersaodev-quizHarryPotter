@@ -103,4 +103,4 @@ if (respostaextra == 3){
 
 alert("Sua potuação: " + pontos)
 
-document.write("<h2>", "Sua           Pontuação: ", pontos, "</h2>")
+document.write("<h2>", "Sua Pontuação: ", pontos, "</h2>")
