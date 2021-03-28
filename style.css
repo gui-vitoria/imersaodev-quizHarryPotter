@@ -29,10 +29,8 @@ h2 {
     position: absolute;
     font-size:40px;
     font-weight:bold;
-    //Distancia do topo da tela
     top: 40%;
     left: 35%;
-    //Espaço por linha
     width: 300px;
     text-align:center;
     color: #ffffff;
