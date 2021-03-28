@@ -2,9 +2,9 @@ var pontos = 0
 
 alert("Seja Bem Vindo ao Quiz Harry Potter, cheio de perguntas sobre esse mundo fantástico. Vamos lá!")
 
-var resposta1 = parseInt(prompt("Qual a melhor saga de livros e filmes? \n1 - Harry Potter\n2 - Senhor dos Anéis\n3 - Game of Thrones\n4 - Jogos Vorazes"))
+var resposta1 = parseInt(prompt("As bolas de quadribol são balaço, pomo de ouro e: \n1 - Boles\n2 - Goles\n3 - Toles\n4 - Doles"))
 
-if (resposta1 == 1){
+if (resposta1 == 2){
   alert("Parabéns, você acertou!! + 1 Ponto. Agora sim podemos começar")
   pontos = pontos + 1
 } else{
@@ -92,13 +92,30 @@ if (resposta10 == 2){
   alert("Errado, a resposta certa era Quando duas varinhas possuem núcleos semelhantes.")
 }
 
+var resposta11 = parseInt(prompt("Do que é feito o núcleo da varinha de Harry Potter?\n1 - Pelo de unicórnio\n2 - Pena de fênix\n3 - Pelo de rougarou\n4 - Chifre de basilisco"))
+
+if (resposta11 == 2){
+  alert("Parabéns, você acertou!! + 1 Ponto")
+  pontos = pontos + 1
+} else{
+  alert("Errado, a resposta certa era Quando duas varinhas possuem núcleos semelhantes.")
+}
+
+var resposta12 = parseInt(prompt("Qual frase abria o mapa do maroto?\n1 - 'Malfeito feito'\n2 - 'Em nome do senhores aluado, rabicho, almofadinhas e pontas'\n3 - 'Eu juro solenemente não fazer nada de bom'\n4 - Feitiço 'Revelio'"))
+
+if (resposta12 == 3){
+  alert("Parabéns, você acertou!! + 1 Ponto")
+  pontos = pontos + 1
+} else{
+  alert("Errado, a resposta certa era Quando duas varinhas possuem núcleos semelhantes.")
+}
+
 var respostaextra = parseInt(prompt("Pergunta extra: Qual a pior adaptação?\n1 - Pedra Filosofal\n2 - Cálice de Fogo\n3 - Enigma do Príncipe\n4 - Câmara Secreta"))
 
 if (respostaextra == 3){
-  alert("Parabéns, você acertou. Oque eles transformaram o livro nesse filme foi um absurdo! RIP cena do Enterro de Dumbledore ☹")
-  pontos = pontos + 1
+  alert("Parabéns, você concorda comigo. Oque eles transformaram o livro nesse filme foi um absurdo! RIP cena do Enterro de Dumbledore ☹")
 } else{
-  alert("Puts, você errouuu. Enigma do Príncipe é a pior adaptação, o que eles fizeram transformando o livro nesse filme foi triste. RIP cena do Enterro de Dumbledore ☹")
+  alert("Puts, você acha esse o pior mesmo? Enigma do Príncipe, na minha opinião, é a pior adaptação, o que eles fizeram transformando o livro nesse filme foi triste. RIP cena do Enterro de Dumbledore ☹")
 }
 
 alert("Sua potuação: " + pontos)
