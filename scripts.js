@@ -98,7 +98,7 @@ if (resposta11 == 2){
   alert("Parabéns, você acertou!! + 1 Ponto")
   pontos = pontos + 1
 } else{
-  alert("Errado, a resposta certa era Quando duas varinhas possuem núcleos semelhantes.")
+  alert("Errado, a resposta certa era Pena de fênix.")
 }
 
 var resposta12 = parseInt(prompt("Qual frase abria o mapa do maroto?\n1 - 'Malfeito feito'\n2 - 'Em nome do senhores aluado, rabicho, almofadinhas e pontas'\n3 - 'Eu juro solenemente não fazer nada de bom'\n4 - Feitiço 'Revelio'"))
@@ -107,7 +107,7 @@ if (resposta12 == 3){
   alert("Parabéns, você acertou!! + 1 Ponto")
   pontos = pontos + 1
 } else{
-  alert("Errado, a resposta certa era Quando duas varinhas possuem núcleos semelhantes.")
+  alert("Errado, a resposta certa era Eu juro solenemente não fazer nada de bom.")
 }
 
 var respostaextra = parseInt(prompt("Pergunta extra: Qual a pior adaptação?\n1 - Pedra Filosofal\n2 - Cálice de Fogo\n3 - Enigma do Príncipe\n4 - Câmara Secreta"))
